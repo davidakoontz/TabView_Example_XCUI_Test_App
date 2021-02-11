@@ -12,7 +12,7 @@
 		63DC7E2B25D4C64F008ABC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DC7E2A25D4C64F008ABC59 /* Assets.xcassets */; };
 		63DC7E2E25D4C64F008ABC59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63DC7E2D25D4C64F008ABC59 /* Preview Assets.xcassets */; };
 		63DC7E3925D4C64F008ABC59 /* TabView_Example_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC7E3825D4C64F008ABC59 /* TabView_Example_TestTests.swift */; };
-		63DC7E4425D4C64F008ABC59 /* TabView_Example_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC7E4325D4C64F008ABC59 /* TabView_Example_TestUITests.swift */; };
+		63DC7E5525D4C694008ABC59 /* TabView_Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC7E5425D4C694008ABC59 /* TabView_Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,8 @@
 		63DC7E3825D4C64F008ABC59 /* TabView_Example_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Example_TestTests.swift; sourceTree = "<group>"; };
 		63DC7E3A25D4C64F008ABC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63DC7E3F25D4C64F008ABC59 /* TabView_Example_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabView_Example_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63DC7E4325D4C64F008ABC59 /* TabView_Example_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Example_TestUITests.swift; sourceTree = "<group>"; };
 		63DC7E4525D4C64F008ABC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DC7E5425D4C694008ABC59 /* TabView_Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView_Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 		63DC7E4225D4C64F008ABC59 /* TabView_Example_TestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				63DC7E4325D4C64F008ABC59 /* TabView_Example_TestUITests.swift */,
+				63DC7E5425D4C694008ABC59 /* TabView_Example.swift */,
 				63DC7E4525D4C64F008ABC59 /* Info.plist */,
 			);
 			path = TabView_Example_TestUITests;
@@ -276,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DC7E4425D4C64F008ABC59 /* TabView_Example_TestUITests.swift in Sources */,
+				63DC7E5525D4C694008ABC59 /* TabView_Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
